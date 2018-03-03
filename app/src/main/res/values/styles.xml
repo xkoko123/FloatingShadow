@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ActionBar" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textColorPrimary">#FFF</item>
+        <item name="colorPrimary">#FFF</item>
+
+    </style>
+
+</resources>

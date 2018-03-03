@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="\\(^o^)/">
+
+        <Preference android:title="打开弹幕!!biubiubiu"
+            android:key="toggle"
+            android:summary="去勾选我啊"/>
+        <Preference
+            android:key="notifi_list"
+            android:summary="设置哪些程序可以发送弹幕"
+            android:title="白名单"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="(┬＿┬)">
+        <Preference
+            android:key="xiaomi"
+            android:summary="小米手机如何使用我"/>
+        <Preference
+            android:key="about_me"
+            android:summary="skkg@qq.com"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

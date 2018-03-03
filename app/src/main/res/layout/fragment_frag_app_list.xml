@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.qialaga.agmcs.FloatingShadow.FragAppList">
+    <ListView
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:overScrollMode="never"
+        android:id="@+id/app_select"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

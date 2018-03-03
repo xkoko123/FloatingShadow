@@ -1,5 +1,6 @@
 <resources>
 
+<<<<<<< HEAD
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
@@ -12,4 +13,32 @@
 
     </style>
 
+=======
+    <!--透明-->
+    <style name="Transparent" parent="Base.V14.Theme.AppCompat">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:anim/fade_out</item>
+        <item name="android:windowBackground">@color/transparent_background</item>
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
+
+
+    <color name="transparent_background">#00000000</color>
+
+<!--material-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+    <!-- customize the color palette -->
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#3949AB</item>
+        <item name="colorAccent">#EC407A</item>
+        <item name="android:textColorPrimary">#E8EAF6</item>
+        <item name="android:windowBackground">@color/background</item>
+        <!--<item name="android:textColor">@color/tertiary_text_material_light</item>-->
+    </style>
+
+    <color name="background">#E0E0E0</color>
+
+
+>>>>>>> bc0bf89750bc179a726bc5a6bb42423ee982cbde
 </resources>

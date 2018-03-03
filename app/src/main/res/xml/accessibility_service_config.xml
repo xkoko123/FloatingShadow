@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+android:accessibilityEventTypes=""
+android:accessibilityFlags="flagDefault"
+android:accessibilityFeedbackType="feedbackSpoken"
+android:notificationTimeout="10000"
+
+android:description="@string/accessibility_description"
+android:settingsActivity="com.agmcs.floatingshadow.MyAccessibility"
+    />

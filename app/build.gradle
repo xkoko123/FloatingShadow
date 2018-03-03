@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+<<<<<<< HEAD
     compileSdkVersion 22
     buildToolsVersion "21.1.2"
 
@@ -11,15 +12,41 @@ android {
         versionCode 2
         versionName "1.01"
     }
+=======
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.agmcs.FloatingShadow"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 13
+        versionName "1.56"
+    }
+
+>>>>>>> bc0bf89750bc179a726bc5a6bb42423ee982cbde
     buildTypes {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+<<<<<<< HEAD
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.1.1'
+=======
+
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:cardview-v7:21.0.0'
+    compile files('libs/YoumiSdk_v5.00_2015-01-30.jar')
+//    compile files('libs/android-directionalviewpager-1.2.0.jar')
+>>>>>>> bc0bf89750bc179a726bc5a6bb42423ee982cbde
 }

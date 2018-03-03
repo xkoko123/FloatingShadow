@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.agmcs.FloatingShadow.Activitys.UnlockActivity">
+
+    <TextView android:text="单价:70"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content" />
+    <TextView android:text="当前积分:"
+        android:id="@+id/cur_point_tv"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_below="@id/cur_point_tv"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="8dp" />
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCC"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="8dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:text="护目镜"
+                android:layout_height="match_parent" />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/unlock_screenfilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="解锁"/>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:text="全局沉浸模式"
+                android:layout_height="match_parent" />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/unlock_immersive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="解锁"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:text="去除所有广告"
+                android:layout_height="match_parent" />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/remove_ad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="解锁"/>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="8dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/get_point_btn"
+            android:text="获取积分"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="首次实际使用时间应不低于1分钟才能保证您返回应用时能够及时获得积分\n积分到账有一定的延迟,如果没有及时到账,请几分钟后刷新试试\n任务列表为空,则代表任务已经被人做完了,请明天再来哦"/>
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

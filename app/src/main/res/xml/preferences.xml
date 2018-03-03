@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory android:title="\\(^o^)/">
 
@@ -19,4 +20,119 @@
             android:summary="skkg@qq.com"
             />
     </PreferenceCategory>
+=======
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/general_setting" >
+        <CheckBoxPreference
+            android:key="is_display"
+            android:defaultValue="true"
+            android:summaryOn="ON"
+            android:summaryOff="OFF"
+            android:title="@string/isdisplay" />
+        <CheckBoxPreference
+            android:key="is_autorun"
+            android:defaultValue="true"
+            android:summaryOn="@string/autorunon"
+            android:summaryOff="@string/autorunoff"
+            android:title="@string/autorun" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="虚拟按键" >
+        <CheckBoxPreference
+            android:key="hide_navbar"
+            android:defaultValue="false"
+            android:summaryOn="隐藏手机虚拟按键"
+            android:summaryOff="显示手机虚拟按键"
+            android:title="隐藏手机虚拟按键(Root,切换后需重启)" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/normal_setting" >
+        <!-- This PreferenceScreen tag serves as a screen break (similar to page break in word processing). Like for other preference types, we assign a key here so it is able to save and restore its instance state. -->
+        <PreferenceScreen
+            android:key="action_setting"
+            android:summary="@string/action_summary"
+            android:title="@string/action" >
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="display"
+            android:summary="@string/display_setting_summary"
+            android:title="@string/display_setting" >
+            <PreferenceScreen
+                android:key="size_value"
+                android:summary="@string/size_summary"
+                android:title="@string/size" />
+            <PreferenceScreen
+                android:key="btn_alpha_value"
+                android:summary="@string/alpha_summary"
+                android:title="@string/alpha_title" />
+
+            <PreferenceScreen
+                android:key="img_res"
+                android:summary="@string/img_summary"
+                android:title="@string/img_title" >
+            </PreferenceScreen>
+            <CheckBoxPreference
+                android:key="is_autodark"
+                android:summaryOn="@string/autodark_on"
+                android:defaultValue="true"
+                android:summaryOff="@string/autodark_off"
+                android:title="@string/autodark_title" />
+
+
+        </PreferenceScreen>
+        <EditTextPreference
+            android:key="double_click"
+            android:defaultValue="250"
+            android:textColor="#000"
+            android:inputType="number"
+            android:summary="@string/double_summary"
+            android:title="@string/double_setting"/>
+        <CheckBoxPreference
+            android:key="keyboard_above"
+            android:title="@string/keyborad_above_title"
+            android:summaryOn="@string/keyborad_above_on"
+            android:summaryOff="@string/keyborad_above_off"
+            android:defaultValue="true"
+            />
+        <CheckBoxPreference
+            android:key="fixedLocal"
+            android:title="@string/fixedLocal_title"
+            android:defaultValue="false"
+            />
+
+
+
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/immersive_setting_cate" >
+        <CheckBoxPreference
+            android:key="hide_statusbar"
+            android:defaultValue="true"
+            android:summaryOn="@string/immersive_on"
+            android:summaryOff="@string/immersive_off"
+            android:title="@string/immersive_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/more" >
+        <PreferenceScreen
+            android:key="unlock"
+            android:title="去广告或解锁" >
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="pay"
+            android:title="捐助!" >
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="abc"
+            android:summary="@string/las_tips"/>
+        <PreferenceScreen
+            android:summary="在设备管理器中取消选项才能卸载程序,这是为了更好的实现锁屏功能所导致的"/>
+        <PreferenceScreen
+            android:summary="@string/more_summary"/>
+    </PreferenceCategory>
+
+
+>>>>>>> bc0bf89750bc179a726bc5a6bb42423ee982cbde
 </PreferenceScreen>

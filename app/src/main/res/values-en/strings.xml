@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="display_color_list_str">
+        <item>Natural</item>
+        <item>Soil</item>
+        <item>Fire</item>
+        <item>Night</item>
+    </string-array>
+
+
+
+    <string name="app_name">FloatingShadow</string>
+    <string name="HOME">Home</string>
+    <string name="action_settings">Setting</string>
+    <string name="action">Action settings</string>
+    <string name="app_select_app">Apps</string>
+    <string name="app_select_function">Actions</string>
+    <string name="app_select_shot">Shortcuts</string>
+    <string name="alpha_title">Alpha</string>
+    <string name="alpha_summary">shadow\'s alpha</string>
+    <string name="autodark_off"></string>
+    <string name="autorun">Auto Launch</string>
+    <string name="autorunoff">Do not auto Launch after reboot</string>
+    <string name="autorunon">Auto Launch after reboot</string>
+    <string name="back">Back</string>
+    <string name="btn1">Button1</string>
+    <string name="btn2">Button2</string>
+    <string name="btn3">Button3</string>
+    <string name="btn4">Button4</string>
+    <string name="btn5">Button5</string>
+    <string name="btn6">Button6</string>
+    <string name="btn7">Button7</string>
+    <string name="btn8">Button8</string>
+    <string name="btn9">Button9</string>
+    <string name="button_setting">Panel Settings</string>
+    <string name="click">Click</string>
+    <string name="current">Current:\b</string>
+    <string name="data_toggle">Mobile data</string>
+    <string name="default_setting_tips">DEFAULT:\n\n    CLICK: Back\n\n    LONG_PRESS: Pannel\n\n    LEFT: Close and sleep current app(root)\n\n    RIGHT: Recent App\n\n    UP: Quick switch last app\n\n    DOWN: HOME\n\n</string>
+    <string name="display_setting">Display Setting</string>
+    <string name="display_setting_summary"></string>
+    <string name="down">slide down</string>
+    <string name="general_setting">General </string>
+    <string name="hello_blank_fragment"></string>
+    <string name="hide">Hide button</string>
+    <string name="home_r">Homr(root)</string>
+    <string name="img_summary">Shadow\'s skin</string>
+    <string name="img_title">Skin</string>
+    <string name="img_wrong">This picture has been moved or deleted</string>
+    <string name="immersive">Immersive mode</string>
+    <string name="immersive_off">When in immersive mode this will always show statusbar at top of screen</string>
+    <string name="immersive_title">Hide statusbar</string>
+    <string name="immersive_on">When in immersive mode this will always hide statusbar at top of screen</string>
+    <string name="isdisplay">Master switch</string>
+    <string name="keep_screen">keep screen on</string>
+    <string name="keyborad_above_off">Below softkeyboard</string>
+    <string name="keyborad_above_title">Above softkeyboard</string>
+    <string name="keyborad_above_on">Above softkeyboard</string>
+    <string name="left">Left slide</string>
+    <string name="load_app">Load...</string>
+    <string name="lock_screen_r">Lock screen(root)</string>
+    <string name="long_press">Long press</string>
+    <string name="menu_r">Menu(root)</string>
+    <string name="more">More</string>
+    <string name="more_summary">For any questions or feature requests about this product you can contact the developer at qialaga@gmail.com</string>
+    <string name="normal_setting">Normal setting</string>
+    <string name="not_support_5.0">not support Android L</string>
+    <string name="notify">notification</string>
+    <string name="qswitcher">Quick switch last app</string>
+    <string name="recently">Recent app</string>
+    <string name="recently_r">Recent app(root)</string>
+    <string name="redisplay">Show me</string>
+    <string name="restart_app">Restar the FloatingShadow</string>
+    <string name="right">Right slide</string>
+    <string name="rotate_toggle">Auto Rotation</string>
+    <string name="screen_filter_dialog">Tap here to Set filter effect</string>
+    <string name="screenfilter">Bluelight filter</string>
+    <string name="setting_action"></string>
+    <string name="setting_isntsetting"></string>
+    <string name="size">Size</string>
+    <string name="size_summary">Shadow\'s size</string>
+    <string name="sleep">hsa been sleep</string>
+    <string name="sleep_r">Close and sleep current app</string>
+    <string name="support4.4">only support 4.4+</string>
+    <string name="switch_black_list_dialog">choose switch last app</string>
+    <string name="switch_black_list_title">App switch BlackList</string>
+    <string name="switch_black_list_summary">List of application in which will not be switched by quick switch last app</string>
+    <string name="switch_last_app_5min"></string>
+    <string name="title_activity_app_seclect"></string>
+    <string name="toolsbroad">Pannel</string>
+    <string name="unlock_cancel">Cancel</string>
+    <string name="up">Up slide</string>
+    <string name="wifi_toggle">Wifi</string>
+    <string name="recycle_summary"></string>
+    <string name="hello_world"></string>
+    <string name="bluetools_toggle">Bluetooth</string>
+    <string name="back_r">Back(root)</string>
+    <string name="autodark_on"></string>
+    <string name="autodark_title">Auto adjust alpha</string>
+    <string name="action_summary"></string>
+    <string name="unlock_title">Unlock</string>
+    <string name="unlock_summary"></string>
+    <string name="accessibility_description">This accessibility service is required for some special features in Floatingshadow(like immersive mode). \n\n  You may be warned about potential privacy risk,that\'s just a regular information warning for any accessibility service. \n\n  We promise NEVER EVER collection your personal information in this accessibility service.</string>
+    <string name="accessibility_tips">You need to enable the accessibility service</string>
+    <string name="las_tips">Quick switch last app can only be done after 5 second of Home key press,This is Android fault.</string>
+    <string name="show_in_notifi">Show in notification</string>
+    <string name="show_in_notifi_summary">Remove Floating Shadow from notification may cause Floating Shadow stop running at low memory </string>
+    <string name="setting_gosetting"></string>
+    <string name="lock_screen">Lock Screen</string>
+    <string name="screen_shot">ScreenShot</string>
+    <string name="usage_setting_tips">needs Usage Excess permission to work on Lollipop.Press OK to go to Setting page.Find and enable \'FloatingShadow\' in \'Apps With Usage Access\'</string>
+    <string name="double_click">double click</string>
+    <string name="double_setting">Double Click Delay</string>
+    <string name="double_summary">set 0 to disable double click</string>
+    <string name="is_auto_hide_title">Auto Hide</string>
+    <string name="is_auto_hide_summary">Hide to lower left quarter when LandScape</string>
+    <string name="immersive_setting_cate">ImmersiveSetting</string>
+    <string name="fixedLocal_title">fixedLocation</string>
+    <string name="devicepolicy_title">You seem not activating the device admintrator</string>
+    <string name="devicepolicy_message">LockScreen need activating the device admintrator, if you want uninstall me you need deactivate the device admintrator,too.</string>
+</resources>

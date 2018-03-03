@@ -19,6 +19,7 @@
       </profile-state>
     </entry>
   </component>
+<<<<<<< HEAD
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -35,11 +36,20 @@
   <component name="ProjectType">
     <option name="id" value="Android" />
   </component>
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+>>>>>>> bc0bf89750bc179a726bc5a6bb42423ee982cbde
   <component name="masterDetails">
     <states>
       <state key="ProjectJDKs.UI">
         <settings>
+<<<<<<< HEAD
           <last-edited>Android API 21 Platform</last-edited>
+=======
+          <last-edited>1.8</last-edited>
+>>>>>>> bc0bf89750bc179a726bc5a6bb42423ee982cbde
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -62,4 +72,9 @@
       </state>
     </states>
   </component>
+<<<<<<< HEAD
 </project>
+=======
+</project>
+
+>>>>>>> bc0bf89750bc179a726bc5a6bb42423ee982cbde

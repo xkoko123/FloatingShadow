@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">悬浮的影子</string>
+
+    <string-array name="display_color_list_str">
+        <item>自然</item>
+        <item>泥土</item>
+        <item>火焰</item>
+        <item>深夜</item>
+    </string-array>
+
+    <string name="title_activity_app_seclect">AppSeclectActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="accessibility_description">此辅助功能模块是悬浮的影子的部分特殊功能所需(模拟按键,沉浸模式等)。
+        \n\n激活此模块时，你可能会受到关于隐私风险的警告，这是系统对任何辅助功能的例行警告.
+        悬浮的影子永远不会通过辅助功能搜集你的任何个人信息。</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 设置界面 -->
+    <string name="show_in_notifi">在通知中心显示</string>
+    <string name="show_in_notifi_summary">为了防止在低内存时系统自动关闭服务,建议勾选此项</string>
+    <string name="general_setting">通用设置</string>
+    <string name="normal_setting">一般设置</string>
+    <string name="isdisplay">开启服务</string>
+    <string name="autorun">开机启动</string>
+    <string name="autorunon">开机自启动</string>
+    <string name="autorunoff">开机不自启动</string>
+    <string name="recycle_summary">当你完成设置后可以点击此项,以立即释放设置界面占用的内存\n(如果出现按键失灵现象,需在系统设置,辅助功能中重新启用本程序)</string>
+    <string name="action_summary">如何响应你的操作</string>
+    <string name="btn1">按钮1</string>
+    <string name="btn2">按钮2</string>
+    <string name="btn3">按钮3</string>
+    <string name="btn4">按钮4</string>
+    <string name="btn5">按钮5</string>
+    <string name="btn6">按钮6</string>
+    <string name="btn7">按钮7</string>
+    <string name="btn8">按钮8</string>
+    <string name="btn9">按钮9</string>
+    <string name="button_setting">按钮设置</string>
+    <string name="click">单击</string>
+    <string name="long_press">长按</string>
+    <string name="right">右滑</string>
+    <string name="left">左滑</string>
+    <string name="up">上滑</string>
+    <string name="down">下滑</string>
+    <string name="display_setting">皮肤设置</string>
+    <string name="display_setting_summary">设置影子的外观</string>
+    <string name="size_summary">设置影子的大小</string>
+    <string name="size">影子大小</string>
+    <string name="alpha_title">影子透明度</string>
+    <string name="alpha_summary">影子的透明度</string>
+    <string name="img_summary">影子的图标</string>
+    <string name="img_title">图标</string>
+    <string name="autodark_on">未操作时影子变暗</string>
+    <string name="autodark_off">不自动变暗</string>
+    <string name="autodark_title">自动变暗</string>
+    <string name="immersive_off">在沉浸模式中显示状态栏</string>
+    <string name="immersive_on">在沉浸模式中隐藏状态栏</string>
+    <string name="immersive_title">隐藏状态栏</string>
+    <string name="unlock_title">解锁新功能</string>
+    <string name="unlock_summary">解锁护目镜与各种皮肤列表</string>
+    <string name="more">更多</string>
+    <string name="more_summary">如有任何建议欢迎反馈至skkg@qq.com,积极更新</string>
+    <string name="keyborad_above_title">覆盖输入法</string>
+    <string name="keyborad_above_on">输入法弹出时,显示在输入面板上面</string>
+    <string name="keyborad_above_off">输入法弹出时,显示在输入面板下面</string>
+    <string name="switch_black_list_title">程序切换黑名单</string>
+    <string name="switch_black_list_summary">哪些程序不想通过切换程序被切换到?</string>
+    <string name="switch_black_list_dialog">选择你不想被切换到的程序</string>
+
+    <!-- 设置完毕 -->
+
+    <string name="default_setting_tips">默认设置:\n\n
+   单击: 返回\n
+   长按: 快速切换程序\n
+   左滑: 休眠当前程序(需ROOT)\n
+   右滑: 最近程序\n
+   上滑: 快捷面板\n
+   下滑: HOME\n
+   双击: 锁屏\n\n</string>
+    <string name="accessibility_tips">虚拟按键与沉浸模式需要先在辅助功能中启用服务</string>
+    <string name="load_app">加载程序列表...</string>
+    <string name="app_select_app">应用程序</string>
+    <string name="current">当前设置: </string>
+    <string name="app_select_shot">快捷方式</string>
+    <string name="app_select_function">功能</string>
+    <string name="unlock_cancel">取消</string>
+    <string name="switch_last_app_5min">按Home后需要5秒才能切换~安卓的机制,我也没办法</string>
+    <string name="screen_filter_dialog">按我设置护目镜效果</string>
+    <string name="restart_app">按我重新启动程序</string>
+    <string name="img_wrong">可能图片已被删除</string>
+    <string name="setting_action">动作设置 里随时可以设置哦</string>
+    <string name="setting_isntsetting">还没设置呢</string>
+    <string name="setting_gosetting">立即去设置?</string>
+    <string name="redisplay">按我显示小按钮</string>
+    <string name="not_support_5.0">暂不支持5.0</string>
+    <string name="sleep">已经处于休眠状态</string>
+    <string name="support4.4">暂只支持4.4以上</string>
+    <string name="action">动作设置</string>
+
+
+    <!--功能名-->
+    <string name="back">返回</string>
+    <string name="immersive">全局沉浸模式</string>
+    <string name="screenfilter">护目镜开关</string>
+    <string name="qswitcher">快速切换程序</string>
+    <string name="HOME">HOME</string>
+    <string name="toolsbroad">快捷面板</string>
+    <string name="hide">隐藏按钮</string>
+    <string name="notify">通知中心</string>
+    <string name="recently">最近程序</string>
+    <string name="sleep_r">结束并休眠当前程序(Root)</string>
+    <string name="back_r">返回(Root)</string>
+    <string name="home_r">Home(Root)</string>
+    <string name="menu_r">菜单键(Root)</string>
+    <string name="lock_screen_r">锁屏(Root)</string>
+    <string name="recently_r">最近程序(Root)</string>
+    <string name="keep_screen">保持屏幕常亮</string>
+    <string name="wifi_toggle">Wifi</string>
+    <string name="bluetools_toggle">Bluetooth开关</string>
+    <string name="rotate_toggle">旋转开关</string>
+    <string name="data_toggle">流量开关</string>
+    <string name="lock_screen">锁屏</string>
+    <string name="screen_shot">截屏(Root)</string>
+    <string name="las_tips">当使用home键回到桌面后,立即使用切换程序功能需要5秒后才能生效,这是安卓的限制,我也无能为力.</string>
+
+    <string name="usage_setting_tips">未root的安卓5.0手机使用程序快速切换功能,需要在使用情况选项中授权.是否现在授权? </string>
+    <string name="double_click">双击</string>
+    <string name="double_setting">双击延迟</string>
+    <string name="double_summary">设置\'0\'来关闭双击功能(越低单击速度越快,越高越容易触发双击事件)</string>
+    <string name="is_auto_hide_title">横屏时自动隐藏</string>
+    <string name="is_auto_hide_summary">横屏时隐藏至左下角</string>
+    <string name="immersive_setting_cate">沉浸模式设置</string>
+    <string name="fixedLocal_title">固定位置</string>
+    <string name="devicepolicy_title">你似乎还没打开设备管理器选项 </string>
+    <string name="devicepolicy_message"> 锁屏功能需要在设备管理器中授权,如要卸载程序时应先关闭授权</string>
+</resources>

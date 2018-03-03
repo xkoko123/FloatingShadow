@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="8dp"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/button_material_light"
+        style="?android:listSeparatorTextViewStyle"
+        android:text="亮度"/>
+    <SeekBar
+        android:id="@+id/tools_light"
+        android:layout_below="@id/title_light"
+        android:max="255"
+        style="?android:seekBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/title_music"
+        android:layout_below="@id/tools_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/button_material_light"
+        style="?android:listSeparatorTextViewStyle"
+        android:text="媒体音量"/>
+    <SeekBar
+        android:id="@+id/tools_volume_music"
+        android:layout_below="@id/title_music"
+        android:max="255"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/title_system"
+        android:layout_below="@id/tools_volume_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/button_material_light"
+        style="?android:listSeparatorTextViewStyle"
+        android:text="铃声音量"/>
+    <SeekBar
+        android:id="@+id/tools_volume_system"
+        android:layout_below="@id/title_system"
+        android:max="255"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
